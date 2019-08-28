@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1123</width>
+    <height>867</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWebEngineView" name="webEngineView">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>140</y>
+     <width>741</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="url">
+    <url>
+     <string>file:///General_Map.html</string>
+    </url>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>441</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nikoleta</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>PICKER Efficiency Calculator</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_button">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>250</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select Map file</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FIT_button">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>370</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select the FIT file</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="evaluate_button">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>560</y>
+     <width>231</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Evaluate</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="map_line">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>210</y>
+     <width>271</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PLEASE SELECT THE DESIRED MAP FILE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="FIT_line">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>330</y>
+     <width>271</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PLEASE SELECT THE FIT DATA OF CLEANER</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>0</y>
+     <width>1151</width>
+     <height>881</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>graphicsView</zorder>
+  <zorder>webEngineView</zorder>
+  <zorder>label</zorder>
+  <zorder>map_button</zorder>
+  <zorder>FIT_button</zorder>
+  <zorder>evaluate_button</zorder>
+  <zorder>map_line</zorder>
+  <zorder>FIT_line</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
