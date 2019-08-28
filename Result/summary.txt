@@ -1,0 +1,8 @@
+File :excel\Initial_data\G4\GARMIN\ACTIVITY\8CA74139.FIT
+Activity Start Time :07:41:40
+Activity End Time :13:41:15
+total Activity Time :5:59:35
+Inside Area Total Time :3:14:26
+Inside Area Working Time :2:13:29
+Percentage Area Inside Time :54.07184241019699
+Percentage Area Working Time :68.65249442825304

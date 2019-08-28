@@ -1,0 +1,5 @@
+Model Name,Data Path,No.of Epochs,Batch Size,Training_data Accuracy,Testing_data Accuracy,Validation_data Aaccuracy,Training_data Loss,Testing_data Loss,Validation_data Loss,Partially_working correct prediction,Not_working correct prediction,Working correct prediction,Wrong_prediction
+MLP,Data_Generation_For_training/Data_total_orignal.npy,1000,256,0.9853372362352186,0.8588235378265381,0.895348846912384,0.30166150502794997,0.4957459568977356,0.4617781341075897,34,13,26,12
+MLP,Data_Generation_For_training/Data_total_orignal.npy,1000,256,0.975073306791244,0.8470588326454163,0.9186046719551086,0.35572799201235394,0.5198217034339905,0.49126890301704407,33,13,26,13
+CNNLSTM,Data_Generation_For_training/Data_total_orignal.npy,1000,256,0.9618768260276213,0.8588235378265381,0.9069767594337463,0.10272481036850434,0.2513468563556671,0.2215811312198639,30,15,28,12
+CNNLSTM,Data_Generation_For_training/Data_total_orignal.npy,1000,256,0.953079172068677,0.9176470637321472,0.8837209343910217,0.14716998275773616,0.21220776438713074,0.284333735704422,38,15,25,7
